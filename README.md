@@ -1,5 +1,6 @@
-# vaultflow
+
 # project: vault flow
+
 ## Section A (Account Hierarchy):
 - Account (Abstract base): holds accountNumber, balance, and an abstract applyMonthlyFee() or calculateInterest() method.
 - SavingsAccount (Subclass): adds an interest rate, minimum balance rule, and concrete interest calculation.
